@@ -5,33 +5,9 @@
 # Required-Stop:     $remote_fs $syslog
 # Default-Start:     2 3 4 5
 # Default-Stop:      0 1 6
-# Short-Description: nginx init.d dash script for Ubuntu <=9.10.
-# Description:       nginx init.d dash script for Ubuntu <=9.10.
+# Short-Description: 
+# Description: 
 ### END INIT INFO
-#------------------------------------------------------------------------------
-# nginx - this Debian Almquist shell (dash) script, starts and stops the nginx 
-#         daemon for ubuntu 9.10 and lesser version numbered releases.
-#
-# description:  Nginx is an HTTP(S) server, HTTP(S) reverse \
-#               proxy and IMAP/POP3 proxy server.  This \
-#		script will manage the initiation of the \
-#		server and it's process state.
-#
-# processname: nginx
-# config:      /usr/local/nginx/conf/nginx.conf
-# pidfile:     /var/run/nginx.pid
-# Provides:    nginx
-#
-# Author:  Jason Giedymin
-#          <jason.giedymin AT gmail.com>.
-#
-# Version: 2.0 02-NOV-2009 jason.giedymin AT gmail.com
-# Notes: nginx init.d dash script for Ubuntu <=9.10.
-# 
-# This script's project home is:
-# 	http://code.google.com/p/nginx-init-ubuntu/
-#
-#------------------------------------------------------------------------------
 #                               Functions
 #------------------------------------------------------------------------------
 . /lib/lsb/init-functions
